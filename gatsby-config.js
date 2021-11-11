@@ -3,9 +3,5 @@ module.exports = {
     siteUrl: 'https://www.yourdomain.tld',
     title: 'portfolio',
   },
-  plugins: [
-    'gatsby-plugin-postcss',
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-typescript',
-  ],
+  plugins: ['gatsby-plugin-postcss', 'gatsby-plugin-react-helmet', 'gatsby-plugin-typescript'],
 }

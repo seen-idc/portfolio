@@ -48,17 +48,17 @@ const socialsListItemStyle: CSSProperties = {
   marginLeft: '1rem',
 }
 
+const socialListItemStyleNoMargin: CSSProperties = {
+  float: 'left',
+}
+
 const IndexPage = () => {
   return (
     <>
       <Helmet>
         <style>{'body { background-color: #0b141f;}'}</style>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="true"
-        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link
           href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Raleway:wght@700&family=Roboto+Mono&display=swap"
           rel="stylesheet"
@@ -74,15 +74,11 @@ const IndexPage = () => {
           >
             VALORANT
           </a>{' '}
-          and like to delve into all things relating to computers like
-          programming.
+          and like to delve into all things relating to computers like programming.
         </p>
         <ul style={socialsListStyles}>
-          <li style={socialsListItemStyle}>
-            <SocialIcon
-              fgColor="white"
-              url="https://twitch.tv/seen_idc"
-            ></SocialIcon>
+          <li style={socialListItemStyleNoMargin}>
+            <SocialIcon fgColor="white" url="https://twitch.tv/seen_idc"></SocialIcon>
           </li>
           <li style={socialsListItemStyle}>
             <SocialIcon
@@ -91,22 +87,13 @@ const IndexPage = () => {
             ></SocialIcon>
           </li>
           <li style={socialsListItemStyle}>
-            <SocialIcon
-              fgColor="white"
-              url="https://github.com/seen-idc"
-            ></SocialIcon>
+            <SocialIcon fgColor="white" url="https://github.com/seen-idc"></SocialIcon>
           </li>
           <li style={socialsListItemStyle}>
-            <SocialIcon
-              fgColor="white"
-              url="https://twitter.com/seen_val"
-            ></SocialIcon>
+            <SocialIcon fgColor="white" url="https://twitter.com/seen_val"></SocialIcon>
           </li>
           <li style={socialsListItemStyle}>
-            <SocialIcon
-              fgColor="white"
-              url="https://discord.gg/dBbspZ2CqU"
-            ></SocialIcon>
+            <SocialIcon fgColor="white" url="https://discord.gg/dBbspZ2CqU"></SocialIcon>
           </li>
         </ul>
       </main>

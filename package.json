@@ -8,7 +8,7 @@
     "gatsby"
   ],
   "scripts": {
-    "prettier": "npx prettier --write",
+    "prettier": "npx prettier --write .",
     "develop": "npm run prettier && gatsby develop",
     "start": "npm run prettier && gatsby develop",
     "build": "npm run prettier && gatsby build",
