@@ -1,2 +1,2 @@
 # Portfolio
-Made using React and Gatsby# portfolio
+Made using React and Gatsby
